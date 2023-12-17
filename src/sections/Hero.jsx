@@ -10,7 +10,8 @@ const Hero = () => {
         <img
           src={HeroImg}
           alt='logo'
-          className='flex-shrink-0 w-full'
+          width={2500}
+          className='flex-shrink-0'
         />
       </dev>
       <div className='tablet:hidden wide:absolute normal::absolute flex flex-col items-start wide:bottom-10 wide:left-20 normal:left-[60px] normal:bottom-10 tablet:left-0 bghero p-4 gap-5 pt-6 px-10 pb-8 wide:w-[630px] normal:w-[622px] tablet:w-full'>
